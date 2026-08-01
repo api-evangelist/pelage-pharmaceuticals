@@ -1,8 +1,25 @@
 aid: pelage-pharmaceuticals
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/pelage-pharmaceuticals.png
 name: Pelage Pharmaceuticals
-description: 'Pelage Pharmaceuticals is a company surfaced as a portfolio company of gv and added to the
-  API Evangelist network as a stub for enrichment. Sector: life-sciences. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Pelage Pharmaceuticals is a clinical-stage biotechnology company developing
+  regenerative medicines for hair loss based on hair follicle stem cell biology discovered
+  by UCLA researchers. Its lead candidate, PP405, is a topically-applied small molecule
+  that reactivates dormant hair follicle stem cells via a metabolic switch to stimulate
+  regrowth, targeting androgenetic alopecia, drug-induced alopecia, and telogen effluvium;
+  it is non-hormonal, non-invasive, and in Phase 2 clinical trials. The company was
+  surfaced as a portfolio company of GV (Google Ventures). It publishes a corporate
+  site and a clinical-trials site but no public developer, API, or technical surface.'
 url: https://raw.githubusercontent.com/api-evangelist/pelage-pharmaceuticals/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +29,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Life Sciences
+- Pharmaceuticals
+- Biotechnology
+- Regenerative Medicine
+- Clinical Trials
+- Dermatology
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +47,14 @@ maintainers:
 common:
 - type: Website
   url: https://pelagepharma.com
+- type: PrivacyPolicy
+  url: https://pelagepharma.com/privacy-policy/
+- type: TermsOfService
+  url: https://pelagepharma.com/terms-of-use/
+- type: DomainSecurity
+  url: security/pelage-pharmaceuticals-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
